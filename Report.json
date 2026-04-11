@@ -1,0 +1,541 @@
+{
+    "Motherboard": {
+        "Name": "HP HP PAVILION GAMING LAPTOP 15-DK0XXX",
+        "Chipset": "HM370",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "F.40",
+        "Release Date": "2020-11-04",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Enabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i7-9750H",
+        "Codename": "Coffee Lake-U",
+        "Core Count": "06",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "NVIDIA GeForce GTX 1650": {
+            "Manufacturer": "NVIDIA",
+            "Codename": "Unknown",
+            "Device ID": "10DE-1F91",
+            "Device Type": "Discrete GPU",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.PEG0.PEGP",
+            "Resizable BAR": "Disabled"
+        },
+        "Intel(R) UHD Graphics 630": {
+            "Manufacturer": "Intel",
+            "Codename": "Coffee Lake",
+            "Device ID": "8086-3E9B",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "LGD062E": {
+            "Connector Type": "Internal",
+            "Resolution": "1920x1080",
+            "Connected GPU": "Intel(R) UHD Graphics 630"
+        }
+    },
+    "Network": {
+        "Realtek RTL8822BE 802.11ac PCIe Adapter": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-B822",
+            "Subsystem ID": "831B103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x7)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP16.PXSX"
+        },
+        "Realtek Gaming GbE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8168",
+            "Subsystem ID": "85FA103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x5)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP14.PXSX"
+        }
+    },
+    "Sound": {
+        "Intel(R) Display Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-280B",
+            "Subsystem ID": "80860101",
+            "Controller Device ID": "8086-A348"
+        },
+        "Realtek(R) Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0285",
+            "Subsystem ID": "103C85FC",
+            "Audio Endpoints": [
+                "Speaker",
+                "Microphone Array",
+                "Stereo Mix"
+            ],
+            "Controller Device ID": "8086-A348"
+        },
+        "NVIDIA High Definition Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10DE-0094",
+            "Subsystem ID": "103C85FC",
+            "Controller Device ID": "10DE-10FA"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A36D",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        }
+    },
+    "Input": {
+        "ELAN HID Class Filter Driver": {
+            "Bus Type": "ACPI",
+            "Device": "ELAN0710",
+            "Device Type": "I2C HID Device"
+        },
+        "Standard PS/2 Keyboard": {
+            "Bus Type": "ACPI",
+            "Device": "HPQ8001",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "BG3 x2 NVMe SSD Controller (DRAM-less)": {
+            "Bus Type": "PCI",
+            "Device ID": "1179-0113",
+            "Subsystem ID": "00011179",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP09.PXSX",
+            "Disk Drives": [
+                "KBG30ZMV128G KIOXIA"
+            ]
+        },
+        "82801 Mobile SATA Controller [RAID mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-282A",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x17,0x0)",
+            "ACPI Path": "\\_SB.PCI0.SAT0"
+        }
+    },
+    "Bluetooth": {
+        "Realtek Bluetooth 4.2 Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-B00B"
+        }
+    },
+    "SD Controller": {
+        "Alcorlink PCIE Card Reader": {
+            "Bus Type": "PCI",
+            "Device ID": "1AEA-6625",
+            "Subsystem ID": "85FC103C"
+        }
+    },
+    "System Devices": {
+        "Numeric data processor": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C04",
+            "ACPI Path": "\\_SB.PCI0.LPCB.MATH"
+        },
+        "Intel(R) Gaussian Mixture Model - 1911": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1911",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x0)"
+        },
+        "Motherboard resources": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Motherboard resources_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "Motherboard resources_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SIRC"
+        },
+        "Microsoft Windows Management Interface for ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.PCI0.WMI2"
+        },
+        "Intel(R) Dynamic Tuning Processor Participant": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1903",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x4,0x0)",
+            "ACPI Path": "\\_SB.PCI0.B0D4"
+        },
+        "ACPI Fan": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN0"
+        },
+        "ACPI Fan_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN1"
+        },
+        "ACPI Fan_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN2"
+        },
+        "ACPI Fan_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN3"
+        },
+        "ACPI Fan_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN4"
+        },
+        "ACPI Processor Aggregator": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000C",
+            "ACPI Path": "\\_SB.PAGD"
+        },
+        "Volume Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "HP Application Driver": {
+            "Bus Type": "ACPI",
+            "Device": "HPIC0003",
+            "ACPI Path": "\\_SB.IPPF"
+        },
+        "Intel(R) Dynamic Tuning Manager": {
+            "Bus Type": "ACPI",
+            "Device": "INT3400",
+            "ACPI Path": "\\_SB.IETM"
+        },
+        "Microsoft Hyper-V Virtual Machine Bus Provider": {
+            "Bus Type": "ROOT",
+            "Device": "VMBUS"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.SEN2"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#1": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.SEN3"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#2": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_.SEN4"
+        },
+        "Microsoft Hypervisor Service": {
+            "Bus Type": "ROOT",
+            "Device": "HVSERVICE"
+        },
+        "ACPI Lid": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LID0"
+        },
+        "ACPI Thermal Zone": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ00"
+        },
+        "ACPI Thermal Zone_#1": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ01"
+        },
+        "ACPI Thermal Zone_#2": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ02"
+        },
+        "Intel(R) PCI Express Root Port #16 - A337": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A337",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x7)",
+            "ACPI Path": "\\_SB.PCI0.RP16"
+        },
+        "Microsoft Windows Management Interface for ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMID"
+        },
+        "Microsoft Hyper-V Virtualization Infrastructure Driver": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "High precision event timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Microsoft ACPI-Compliant Embedded Controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_"
+        },
+        "Composite Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Microsoft Virtual Drive Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "System timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "PCI standard RAM Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A36F",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x2)"
+        },
+        "High Definition Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10DE-10FA",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)"
+        },
+        "Intel(R) SPI (flash) Controller - A324": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A324",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x5)"
+        },
+        "Motherboard resources_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PRRE"
+        },
+        "UMBus Root Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Charge Arbitration Driver": {
+            "Bus Type": "ROOT",
+            "Device": "CAD"
+        },
+        "Microsoft Windows Management Interface for ACPI_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFDE"
+        },
+        "Intel(R) Management Engine Interface ": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A360",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HECI"
+        },
+        "Intel(R) Host Bridge/DRAM Registers - 3EC4": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-3EC4",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Microsoft Windows Management Interface for ACPI_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFTE"
+        },
+        "PCI Express Root Complex": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "Intel(R) Serial IO I2C Host Controller - A368": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A368",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x0)",
+            "ACPI Path": "\\_SB.PCI0.I2C0"
+        },
+        "Microsoft Hyper-V PCI Server": {
+            "Bus Type": "ROOT",
+            "Device": "VPCIVSP"
+        },
+        "ACPI Power Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Intel(R) Thermal Subsystem - A379": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A379",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x12,0x0)"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Intel(R) PCI Express Root Port #15 - A336": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A336",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x6)",
+            "ACPI Path": "\\_SB.PCI0.RP15"
+        },
+        "Microsoft UEFI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "Intel(R) 300 Series Chipset Family LPC Controller (HM370) - A30D": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A30D",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "Motherboard resources_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SRRE"
+        },
+        "ACPI Fixed Feature Button": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "ACPI Wake Alarm": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000E",
+            "ACPI Path": "\\_SB.AWAC"
+        },
+        "Microsoft Windows Management Interface for ACPI_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.PCI0.WMI1"
+        },
+        "High Definition Audio Controller_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A348",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.HDAS"
+        },
+        "Intel(R) Power Engine Plug-in": {
+            "Bus Type": "ACPI",
+            "Device": "INT33A1",
+            "ACPI Path": "\\_SB.PEPD"
+        },
+        "Programmable interrupt controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "Intel(R) SMBus - A323": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A323",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x4)",
+            "ACPI Path": "\\_SB.PCI0.SBUS"
+        },
+        "Microsoft Hyper-V Virtual Disk Server": {
+            "Bus Type": "ROOT",
+            "Device": "STORVSP"
+        },
+        "Motherboard resources_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.IOTR"
+        },
+        "Intel(R) Watchdog Timer Driver (Intel(R) WDT)": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "PCI Express Root Port": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1901",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)",
+            "ACPI Path": "\\_SB.PCI0.PEG0"
+        },
+        "Intel(R) PCI Express Root Port #9 - A330": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A330",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP09"
+        },
+        "NDIS Virtual Network Adapter Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Intel(R) Serial IO GPIO Host Controller - INT3450": {
+            "Bus Type": "ACPI",
+            "Device": "INT3450",
+            "ACPI Path": "\\_SB.PCI0.GPI0"
+        },
+        "HP Omen Driver": {
+            "Bus Type": "ACPI",
+            "Device": "HPIC0004",
+            "ACPI Path": "\\_SB.IC04"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Motherboard resources_#6": {
+            "Bus Type": "ACPI",
+            "Device": "INT340E",
+            "ACPI Path": "\\_SB.PTID"
+        },
+        "Microsoft Windows Management Interface for ACPI_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WMTF"
+        },
+        "Plug and Play Software Device Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "HP Mobile Data Protection Sensor": {
+            "Bus Type": "ACPI",
+            "Device": "HPQ6007",
+            "ACPI Path": "\\_SB.ACEL"
+        },
+        "Intel(R) PCI Express Root Port #14 - A335": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A335",
+            "Subsystem ID": "85FC103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x5)",
+            "ACPI Path": "\\_SB.PCI0.RP14"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
