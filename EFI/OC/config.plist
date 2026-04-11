@@ -1892,7 +1892,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 -wegnoegpu -igfxblr -igfxblt revpatch=sbvmm</string>
 				<key>csr-active-config</key>
-				<data>AwAAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
@@ -1913,7 +1913,6 @@
 			<array>
 				<string>boot-args</string>
 				<string>ForceDisplayRotationInEFI</string>
-				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
