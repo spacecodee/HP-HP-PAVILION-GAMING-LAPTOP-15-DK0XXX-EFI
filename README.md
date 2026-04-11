@@ -27,13 +27,22 @@ The stock Wi-Fi card was physically replaced with an **Intel AX210NGW** module.
 ### USB Mapping
 - Internal and external USB ports have been strictly mapped using `UTBMap.kext` to ensure correct power delivery, sleep functioning, and internal Bluetooth hardware discovery.
 
+### Audio (Design Decision)
+- **Internal Speakers/Mic (ALC285):** Deliberately bypassed. macOS Tahoe completely removed `AppleHDA`, breaking `AppleALC`. While third-party workarounds like `VoodooHDA` exist, they severely compromise system security by requiring the disabling of System Integrity Protection (SIP) to bind to the hardware. 
+- **Recommendation:** Use a USB Audio Card or Bluetooth speakers/headphones. This preserves system stability and maintains a 100% physically secure OS environment.
+
+### Deep System Stability (ACPI)
+- **IRQ Patches:** This EFI utilizes `SSDT-HPET.aml` alongside OpenCore ACPI renames (`_STA to XSTA` and `_CRS to XCRS`). This is a critical architectural patch to resolve inherent HP Pavilion hardware interrupt conflicts, ensuring smooth sleep/wake cycles and power management.
+
 ### Security
 - **System Integrity Protection (SIP):** Fully ENABLED (`csr-active-config` = `00000000`).
 - The system is engineered to run as close to real Mac hardware dependencies as possible.
 
-## ⚙️ Post-Installation Notes
-- **HeliPort:** Remember to add HeliPort to your macOS "Login Items" (System Settings > General > Login Items) so it launches automatically on boot and auto-connects to your saved Wi-Fi networks.
-- **NVRAM Resets:** Any major changes applied to this EFI configuration (especially Kexts and NVRAM keys) require an NVRAM Reset from the OpenCore boot picker to take effect successfully.
+## ⚙️ Post-Installation & Best Practices
+- **iServices (FaceTime, iMessage):** The `config.plist` requires you to generate your own unique SMBIOS strings (`SystemSerialNumber`, `SystemUUID`, `MLB`, and `ROM`) using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). Do not log into your Apple ID until you generate them!
+- **HeliPort:** Remember to add HeliPort to your macOS "Login Items" (System Settings > General > Login Items) so it launches automatically on boot and auto-connects.
+- **Windows Fast Boot:** If you dual-boot with Windows, you **MUST disable "Fast Startup"** in Windows Power Settings. Otherwise, Windows will lock the Intel AX210 hardware, causing it to fail when you boot into macOS.
+- **NVRAM Resets:** Any major changes applied to this EFI configuration require an NVRAM Reset from the OpenCore boot picker to take effect successfully.
 
 ---
 *Note: This README is continuously updated as new hardware features are patched and stabilized.*
