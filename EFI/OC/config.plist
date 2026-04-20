@@ -1879,16 +1879,16 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>#INFO (prev-lang:kbd)</key>
-				<string>en:252 (ABC), set 656e3a323532</string>
-				<key>#INFO (bluetooth)</key>
-				<string>BT NVRAM vars removed - let macOS discover AX210 controller naturally on Tahoe</string>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>AA==</data>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 -wegnoegpu -igfxblr -igfxblt revpatch=sbvmm</string>
+				<string>keepsyms=1 -wegnoegpu -igfxblr -igfxblt revpatch=sbvmm -ibtcompatbeta</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
