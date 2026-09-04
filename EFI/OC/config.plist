@@ -497,6 +497,8 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAGEC4GAAAAAAAdAQSVIhN4AzjVl15ZjiccUFQAAAABAQEBAQEBAQEBAQEBAQEBJDaAoHA4H0AwIDUAWMIQAAAZGCSAoHA4H0AwIDUAWMIQAAAZAAAA/ABDb2xvciBMQ0QKICAgAAAAAgAMOv8KPH0TFCZ9AAAAANU=</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>

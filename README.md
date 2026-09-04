@@ -24,6 +24,11 @@ The stock Wi-Fi card was physically replaced with an **Intel AX210NGW** module.
   - Handled by the `OpenIntelWireless` suite (`IntelBluetoothFirmware.kext`, `IntelBTPatcher.kext`, and `BlueToolFixup.kext`).
   - **Tahoe Compatibility Note:** To bypass Apple's strict Bluetooth firmware checks in macOS Tahoe, two critical variables are natively injected into the `7C436110-AB2A-4BBB-A880-FE41995C9F82` NVRAM namespace: `bluetoothExternalDongleFailed` (Data: `00`) and `bluetoothInternalControllerInfo` (Data: `00000000 00000000 00000000 0000`). Additionally, the `-ibtcompatbeta` boot argument is used to ensure proper initialization of the Intel Bluetooth controller.
 
+### Internal Display & Native Apple "Color LCD"
+- **Panel:** LG Display (`LGD062E`, 1920x1080).
+- **Native Apple Recognition:** Configured via EDID injection (`AAPL00,override-no-connect`) under `PciRoot(0x0)/Pci(0x2,0x0)`. macOS natively recognizes the screen as an Apple **"Built-in Display"** and assigns the **"Color LCD"** color profile.
+- **Retina Scaling Guide:** See [DISPLAY.md](DISPLAY.md) for full technical documentation on the EDID patch and how to configure **BetterDisplay** for MacBook-style HiDPI scaling.
+
 ### USB Mapping
 - Internal and external USB ports have been strictly mapped using `UTBMap.kext` to ensure correct power delivery, sleep functioning, and internal Bluetooth hardware discovery.
 
